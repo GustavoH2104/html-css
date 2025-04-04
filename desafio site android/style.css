@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf');
+    font-weight: normal;
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(107, 212, 107);
+    margin: 0px;
+}
+
+p {
+    margin: 15px 0px 15px 0px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+    
+}
+
+main{
+    background-color: white;
+    text-align: justify;
+    min-width: 190px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main img{
+
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.pequena{
+    max-width: 350px;
+}
+
+header{
+      background-image: linear-gradient(to bottom, rgb(142, 253, 142), rgb(43, 77, 43));
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
+      text-align: center;
+      min-height: 150px;
+      padding-top: 40px;
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.644);
+      
+
+  }
+
+  header > h1{
+    font-size: 3em;
+  }
+
+  header > p{
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .titles{
+    font-family: idroid;
+  }
+
+  h2{
+    background-image: linear-gradient(to right, rgb(21, 151, 21), transparent);
+    text-indent: 10px;
+  }
+
+  h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+  }
+ 
+  .menu{
+          text-align: left;
+          padding: 10;
+          box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.199);
+          color: white;
+          padding: 10px;
+          text-decoration: none;
+          font-weight: bold;
+          transition-duration: .5s;
+      }
+
+      .menu > :hover{
+        background-color: green;
+        border-radius: 5px;
+      }
+
+      
+    
+    .video {
+        background-color: green;
+        padding: 10px;
+        padding-bottom: 62%;
+        margin: 0px -20px 30px -20px;
+        position: relative;
+    }  
+
+    div.video > iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90% ;
+        height: 90% ;
+
+    }
+
+    .boxlist{
+        background-color:rgb(107, 212, 107) ;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.322); 
+        
+    }
+    .list {
+        display: inline-block;
+        width: 500px;
+        margin-left: 0px;
+        text-align: justify;
+        background-color: rgb(107, 212, 107);
+    }
+
+    .list > ul {
+        list-style-type: '\2705\00a0';
+        list-style-position: inside;
+        columns: 2;
+    }
+
+    footer{
+        text-align: center;
+        height: 33px;
+        width: 100%;
+        margin: 0px;
+        background-color: green;
+    }
