@@ -72,6 +72,8 @@ header{
 
   .titles{
     font-family: idroid;
+    font-size: 2em;
+    text-align: none;
   }
 
   h2{
@@ -131,8 +133,8 @@ header{
         
     }
     .list {
-        display: inline-block;
-        width: 500px;
+        max-width: 500px;
+        min-width: none;
         margin-left: 0px;
         text-align: justify;
         background-color: rgb(107, 212, 107);
