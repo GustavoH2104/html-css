@@ -72,8 +72,9 @@ header{
 
   .titles{
     font-family: idroid;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: none;
+    min-width: 200px;
   }
 
   h2{
@@ -135,7 +136,6 @@ header{
     .list {
         max-width: 500px;
         min-width: none;
-        margin-left: 0px;
         text-align: justify;
         background-color: rgb(107, 212, 107);
     }
@@ -144,6 +144,8 @@ header{
         list-style-type: '\2705\00a0';
         list-style-position: inside;
         columns: 2;
+        font-size: 0.9em;
+        text-align: justify;
     }
 
     footer{
